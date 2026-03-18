@@ -74,7 +74,7 @@ Total Swaps: 2
              [8, 7, 4, 3]     
 
             
-                TIME COMPLEXTY AND SPACE COMPLEXITY
+                TIME COMPLEXITY AND SPACE COMPLEXITY
    -Bitonic Sort is a divide-and-conquer algorithm. 
    -Its recursive nature guarantees that every element is compared at each merge stage, regardless of input order. Hence, all    cases (best, average, worst) take    O(n log² n) time.
    -Space complexity is O(log n) due to recursion stack usage, and no extra  memory is used for storing elements since the        algorithm works in-place.
